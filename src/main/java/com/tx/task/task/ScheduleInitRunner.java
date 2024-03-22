@@ -19,7 +19,7 @@ import java.util.List;
 @Component
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
-public class AntiFraudInitRunner implements CommandLineRunner {
+public class ScheduleInitRunner implements CommandLineRunner {
 
     ScheduleSettingRepository scheduleSettingRepository;
 
